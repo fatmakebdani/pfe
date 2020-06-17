@@ -77,7 +77,7 @@
 		<section class="bg-gray">
 		<div class="container>
 			<div class="row">
-				<h1 class="lead" style="color: orange;"> Trouver votre futur emploi</h1>
+				<h1 class="lead" style="color: orange;"> Trouvez votre futur emploi</h1>
 			</div>
 		</div>
 	</section>
