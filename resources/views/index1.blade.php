@@ -160,7 +160,7 @@
                                 <i class="fa fa-file" aria-hidden="true"></i>Fiche Professionnelle</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="index1/mesOffres">
                                 <i class="fas fa-table"></i>Mes offres</a>
                         </li>
                         <li>

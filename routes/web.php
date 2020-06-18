@@ -22,6 +22,9 @@ Route::get('/index1', function () {
 Route::get('/index2', function () {
     return view('index2');
 });
+Route::get('/index1/mesOffres', function () {
+    return view('mesOffres');
+});
 Route::get('/about', function () {
     return view('about');
 });
