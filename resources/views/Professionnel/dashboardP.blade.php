@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Tables</title>
+    <title>Dashboard</title>
 
     <!-- Fontfaces CSS-->
     <link href="/assets/css/font-face.css" rel="stylesheet" media="all">
@@ -22,7 +22,7 @@
     <link href="/assets/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/wow/animate.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
@@ -42,8 +42,8 @@
             <div class="header-mobile__bar">
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
-                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                        <a class="logo" href="index1">
+                            <img src="/assets/images/hireme.png" alt="Hire me" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -56,23 +56,10 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
+                      
+                        <li>
+                            <a href="index1">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="index.html">Dashboard 1</a>
-                                </li>
-                                <li>
-                                    <a href="index2.html">Dashboard 2</a>
-                                </li>
-                                <li>
-                                    <a href="index3.html">Dashboard 3</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">Dashboard 4</a>
-                                </li>
-                            </ul>
                         </li>
                         <li>
                             <a href="chart.html">
@@ -158,37 +145,23 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img src="images/icon/logo.png" alt="Cool Admin" />
+                    <img src="/assets/images/hireme.png" alt="Hire me" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="index.html">Dashboard 1</a>
-                                </li>
-                                <li>
-                                    <a href="index2.html">Dashboard 2</a>
-                                </li>
-                                <li>
-                                    <a href="index3.html">Dashboard 3</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">Dashboard 4</a>
-                                </li>
-                            </ul>
+                       <li class="active">
+                            <a href="index1">
+                                <i class="fas fa-tachometer-alt"></i>Gérer compte</a>
                         </li>
                         <li>
                             <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                                <i class="fa fa-file" aria-hidden="true"></i>Fiche Professionnelle</a>
                         </li>
-                        <li class="active">
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
+                        <li>
+                            <a href="mesOffres">
+                                <i class="fas fa-table"></i>Mes offres</a>
                         </li>
                         <li>
                             <a href="form.html">
@@ -286,7 +259,7 @@
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
+                                                    <img src="/assets/images/icon/avatar-06.jpg" alt="Michelle Moreno" />
                                                 </div>
                                                 <div class="content">
                                                     <h6>Michelle Moreno</h6>
@@ -391,7 +364,7 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                            <img src="/assets/images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
                                             <a class="js-acc-btn" href="#">john doe</a>
@@ -400,7 +373,7 @@
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                        <img src="" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
@@ -436,61 +409,50 @@
                     </div>
                 </div>
             </header>
-            <!-- END HEADER DESKTOP-->
+            <!-- HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
+                       
                         <div class="row">
-                            <div class="col-lg-12">
-                                <div class="table-responsive table--no-card m-b-30">
-                                    <table class="table table-borderless table-striped table-earning">
-                                        <thead>
-                                            <tr>
-                                                <th>titre</th>
-                                                <th>statut</th>
-                                                <th><button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                            <i class="zmdi zmdi-plus"></i>Nouvelle offre</button></th>
-                                                
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>100398</td>
-                                                <td><button class="au-btn au-btn-icon au-btn--blue au-btn--small">Modifier</button></td>
-                                            </tr>
-                                           <tr>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>100398</td>
-                                                <td><button class="au-btn au-btn-icon au-btn--blue au-btn--small">Modifier</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>100398</td>
-                                                <td><button class="au-btn au-btn-icon au-btn--blue au-btn--small">Modifier</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>100398</td>
-                                                <td><button class="au-btn au-btn-icon au-btn--blue au-btn--small">Modifier</button></td>
-                                            </tr>
-                                           <tr>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>100398</td>
-                                                <td><button class="au-btn au-btn-icon au-btn--blue au-btn--small">Modifier</button></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                            <div class="col-md-12">
+    <table class="table table-borderless">
+  <tbody>
+    <tr>
+      <th scope="row">photo de profil</th>
+            <th><img src="/assets/images/icon/avatar-01.jpg" height="50" width="50%"  class="img-circle"/></th>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">Nom</th>
+      <td>Mark</td>
+    </tr>
+    <tr>
+      <th scope="row">Prénom</th>
+      <td>Jacob</td>
+    </tr>
+    <tr>
+      <th scope="row">adresse</th>
+      <td>Larry the Bird</td>
+    </tr>
+    <tr>
+        <th scope="row">téléphone</th>
+        <td>cc</td>
+    </tr>
+    <tr>
+        <th scope="row">email</th>
+        <td>cc</td>
+    </tr>
+    <tr>
+        <th scope="row">mot de pass</th>
+        <td>*****</td>
+    </tr>
+  </tbody>
+</table>
                             
-                        </div>
-                        
-                       
-                       
-                        </div>
+                           
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
@@ -501,33 +463,35 @@
                     </div>
                 </div>
             </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
         </div>
 
     </div>
 
     <!-- Jquery JS-->
-    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="/assets/vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="/assets/vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="/assets/vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS       -->
-    <script src="vendor/slick/slick.min.js">
+    <script src="/assets/vendor/slick/slick.min.js">
     </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="/assets/vendor/wow/wow.min.js"></script>
+    <script src="/assets/vendor/animsition/animsition.min.js"></script>
+    <script src="/assets/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
+    <script src="/assets/vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="/assets/vendor/counter-up/jquery.counterup.min.js">
     </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="/assets/vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="/assets/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="/assets/vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="/assets/vendor/select2/select2.min.js">
     </script>
 
     <!-- Main JS-->
-    <script src="js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 

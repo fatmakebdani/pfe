@@ -16,14 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/index1', function () {
-    return view('index1');
+Route::get('/dashboardP', function () {
+    return view('Professionnel.dashboardP');
 });
-Route::get('/index2', function () {
-    return view('index2');
+
+Route::get('mesOffres', function () {
+    return view('Professionnel.mesOffres');
 });
-Route::get('/index1/mesOffres', function () {
-    return view('mesOffres');
+Route::get('/dashboardC', function () {
+    return view('Candidat.dashboardC');
 });
 Route::get('/about', function () {
     return view('about');
