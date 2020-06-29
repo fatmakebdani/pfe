@@ -16,12 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/3', function () {
+    return view('index3');
+});
 Route::get('/dashboardP', function () {
     return view('Professionnel.dashboardP');
 });
 
-Route::get('mesOffres', function () {
-    return view('Professionnel.mesOffres');
+Route::get('mes_offres', function () {
+    return view('Professionnel.mes_offres');
+});
+Route::get('mes_candidatures', function () {
+    return view('Candidat.mes_candidatures');
+});
+Route::get('admin', function () {
+    return view('Admin.admin');
 });
 Route::get('/dashboardC', function () {
     return view('Candidat.dashboardC');

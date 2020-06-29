@@ -33,10 +33,9 @@
    
 				<a class="navbar-brand" href="/"><img src="/assets/images/hireme.png" height="100" width="100" alt="hire me" ></a>
 			
-			<nav class="navbar-collapse collapse id="navbarCollapse"> 
-				<ul class="nav navbar-nav ml-auto text-top">
-					<li class="active"><a href="/">Acceuil</a></li>
-					<li class="dropdown">
+			<div class="topnav"> 
+					<a class="active" href="/">Acceuil</a>
+					<a class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Offres <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="nav-item"><a href="sidebar-left">Par fonction</a></li>
@@ -45,28 +44,12 @@
 							<li class="nav-item"><a href="sidebar-right">Recherche par mot clé</a></li>
 
 						</ul>
-					</li>
-					<li class="nav-item"><a href="about">A propos</a></li>
-					<li class="nav-item"><a href="contact">Contact</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Se connecter <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li class="nav-item"><a href="sidebar-left">Professionnel</a></li>
-							<li class="nav-item"><a href="sidebar-right">Chercheur d'emploi</a></li>
-
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">S'inscrire <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li class="nav-item"><a href="signup">Professionnel</a></li>
-							<li class="nav-item"><a href="signup">Chercheur d'emploi</a></li>
-
-						</ul>
-					</li>
-					<!--<li><a class="btn" href="signin">SIGN IN / SIGN UP</a></li>-->
-				</ul>
-			</nav>
+					</a>
+					<a  href="about">A propos</a>
+					<a href="contact">Contact</a>
+					<div class="topnav-right"><button class="btn" href="signin.html">SIGN IN / SIGN UP</button></div>
+				</div>
+					<!--<li><a class="btn" href="signin">SIGN IN / SIGN UP</a></li
 		</nav><!--/.nav-collapse -->
 		</div>
 	</div> 
