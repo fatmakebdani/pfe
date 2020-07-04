@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('indexx');
 });
-Route::get('/3', function () {
-    return view('index3');
+Route::get('/jobd', function () {
+    return view('job_details');
+});
+Route::get('/jobl', function () {
+    return view('job_listing');
 });
 Route::get('/dashboardP', function () {
     return view('Professionnel.dashboardP');
