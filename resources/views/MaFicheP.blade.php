@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -180,8 +180,8 @@
                                  <div class="au-breadcrumb-left">
                                  <nav class="navbar navbar-light navbar-brand ">
                                          <a href="/MaFicheP"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>
-                                           <span class="bot-line"></span> Fiche prrofessionnelle</a>
-    <a href="mes_candidatures">
+                                           <span class="bot-line"></span>Ma fiche professionnelle</a>
+                                         <a href="mes_candidatures">
                                     <i class="fa fa-bookmark" aria-hidden="true"></i>
                                     <span class="bot-line"></span>Mes candidatures</a>
 </nav>
@@ -197,142 +197,193 @@
     </header>
         <!-- END HEADER MOBILE -->
 <main>
-     
         <!-- PAGE CONTENT-->
             <!-- BREADCRUMB-->
-        
-            <section class="au-breadcrumb2">
-            <div class="container">
-                        <div class="row justify-content-center">
-                            <div class=" col-lg-8">
-                                <h3 class="mb-30"style="color:#fb246a">Mes candidatures</h3>
-                                
-                                    <div class="progress-table">
-                                            <div class="table-head">
-                            <div class="col-lg-3">Titre</div>
-                            <div class="col-lg-3">Entreprise</div>
-                            <div class="col-lg-2">Statut</div>
-                        </div>
-                                        <div class="table-row">
-                                            <div class="col-lg-3">Dev web</div>
-                            <div class="col-lg-3">Djezzy</div>
-                                 <div class="col-lg-2">libre</div>
- <div class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal"></div>
-<div id="myModal" class="modal" tabindex="-1" role="dialog"  aria-labelledby="myModal">
-  <div class="modal-dialog modal-lg" role="document">
+            <!-- END BREADCRUMB-->
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-         <h4 class="modal-title">Job Overview</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-       
-      </div>
-      <div class="modal-body">
-         <div class="post-details3  mb-50">
-                            <!-- Small Section Tittle -->
-                          <ul>
-                              <li>Posted date : <span>12 Aug 2019</span></li>
-                              <li>Location : <span>New York</span></li>
-                              <li>Vacancy : <span>02</span></li>
-                              <li>Job nature : <span>Full time</span></li>
-                              <li>Salary :  <span>$7,800 yearly</span></li>
-                              <li>Application date : <span>12 Sep 2020</span></li>
-                          </ul>
-                       </div>
-      </div>
-      <div class="modal-footer">
-          <div class="apply-btn2">
-                            <a href="#" class="btn">Apply Now</a>
-                         </div>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-<div class="col-md-2"></div>
-<div class="fa fa-minus-circle"size="lg" aria-hidden="true"></div>
-</div>
-
-                
-                                           
-                                       <div class="table-row">
-                                            <div class="col-lg-3">IT</div>
-                            <div class="col-lg-3">CHU</div>
-                                 <div class="col-lg-2">En cours d'examin</div>
- <div class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal"></div>
-<div id="myModal" class="modal" tabindex="-1" role="dialog"  aria-labelledby="myModal">
-  <div class="modal-dialog modal-lg" role="document">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"></h4>
-      </div>
-      <div class="modal-body">
-         
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-<div class="col-md-2"></div>
-<div class="fa fa-minus-circle"size="lg" aria-hidden="true"></div>
-</div>
-                                     <div class="table-row">
-                                            <div class="col-lg-3">IT</div>
-                            <div class="col-lg-3">sonatrash</div>
-                                 <div class="col-lg-2">Attribuée</div>
- <div class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal"></div>
-<div id="myModal" class="modal" tabindex="-1" role="dialog"  aria-labelledby="myModal">
-  <div class="modal-dialog modal-lg" role="document">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"></h4>
-      </div>
-      <div class="modal-body">
-         
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-<div class="col-md-2"></div>
-<div class="fa fa-minus-circle"size="lg" aria-hidden="true"></div>
-</div>
-                             
-</div>
-                                        </div>
-                                    
-                                </div>
-                            </div>
-                           
-        <div class="page-content--bgf7">
-            <!-- BREADCRUMB-->
-            
-        </main>
-            
             <!-- WELCOME-->
-           
+            <section class="au-breadcrumb2">
+                  <div class="container">
+                        <div class="row justify-content-left">
+                            <div class=" col-lg-8">
+                                <h2 class="mb-30"style="color:#fb246a">Ma fiche professionnelle</h2>
+                                
+                            <hr class="line-seprate">
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- END WELCOME-->
 
             <!-- STATISTIC-->
-           
+            
+            <!-- END STATISTIC-->
+
+            <!-- STATISTIC CHART-->
+            <section class="statistic-chart">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Informations personnelles</h6>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <!-- CHART-->
+                            <div class="statistic-chart-1"style="background-color:#F1F0EF ">
+                                <form>
+                                    <div class="row">
+                                    <div class="col-md-6" class="vertical-right">
+                                    
+                                    <div class="genric-btn primary-border circle" text-align="vertical-right">Modifier</div>
+                                </div>
+                                 <div  class="col-md-6" class="vertical-right">
+                                  <label class="custom-file">
+  <input type="file" id="file" class="custom-file-input">
+  <span class="custom-file-control"></span>
+</label>
+                                   
+                           <img src="assets/images/icon/fatma.jpg" width="100" height="70" />
+                                </div>
+</div>
+                                    <label>Nom</label>
+                                    <input type="text" class="form-control" id="id_nom">
+
+                                    <label>Prénom</label>
+                                    <input type="text" class="form-control" id="id_prenom"><br>
+
+                                    <input type="radio" name="sexe" id="id_sexe" value="Homme">
+                                    <label>Homme</label>
+
+                                    <input type="radio" name="sexe" id="id_sexe" value="Femme">
+                                    <label>Femme</label><br>
+
+                                    <label >Email</label>
+                                    <input type="email" class="form-control" id="id_email" ><br>
+
+                                    <label>N° de téléphone</label>
+                                    <input type="tel" id="id_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required ><br>
+   
+                                    <label>Date de naissance</label>
+                                     <input  type="date" value="jj/mm/aaaa" id="example-date-input"><br>
+
+
+                                    
+
+ 
+                                </form>
+                            </div>
+                            <!-- END CHART-->
+                        </div>       
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="title-5 m-b-35" style="color: #242b5e;">Expériences</h6>
+                       
+                            <!-- CHART-->
+                            <div class="statistic-chart-1"style="background-color:#F1F0EF ">
+                                <form>
+                                    <label>Titre</label>
+                                    <input type="text" class="form-control" id="id_TitreE">
+
+                                    <label>Nom entreprise</label>
+                                    <input type="text" class="form-control" id="id_NomE"><br>
+
+                                    
+   
+                                    <label>Date de début</label>
+                                    <input type="date" id="id_DateD" ><br>
+
+                                     <label>Date de fin</label>
+                                    <input type="date" id="id_DateF" ><br>
+
+                                     <input type="file"  id="id_fileE"><br>
+
+                                    <div class="col-md-6" class="vertical-right">
+                                    
+                                    <div class="genric-btn primary-border circle" text-align="vertical-right">Ajouter</div>
+                                </div>
+
+                                </form>
+                            </div>
+                        </div>
+                         
+                         <div class="col-md-6">
+
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Diplômes et formations</h6>
+                        
+                            <!-- CHART-->
+                            <div class="statistic-chart-1"style="background-color:#F1F0EF ">
+                                <form>
+                                    <label>Titre</label>
+                                    <input type="text" class="form-control" id="id_TitreE">
+
+                                    <label>Nom établissement</label>
+                                    <input type="text" class="form-control" id="id_NomE"><br>
+
+                                    
+   
+                                    <label>Date de début</label>
+                                    <input type="date" id="id_DateD" ><br>
+
+                                     <label>Date de fin</label>
+                                    <input type="date" id="id_DateF" ><br>
+                                    <label>
+
+                                   <input type="file"  id="id_file"><br>
+                                  
+                                <div class="col-md-6" class="vertical-right">
+                                    
+                                     <div class="genric-btn primary-border circle" text-align="vertical-right">Ajouter</div>
+                                </div>
+                                    
+                                    
+
+ 
+                                </form>
+                            </div>
+                        </div>
+                            <!-- END CHART-->
+                        </div> 
+                       <div class="row">
+                        <div class="col-md-12">
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Compétences</h6>
+                            <!-- CHART-->
+                            <div class="statistic-chart-1"style="background-color:#F1F0EF ">
+                                <form>
+                                    <label>Titre</label>
+                                    <input type="text" class="form-control" id="id_TitreE"><br>
+                                    
+
+                             
+                                    <div class="col-md-6" class="vertical-right">
+                                    
+                                      <div class="genric-btn primary-border circle" text-align="vertical-right">Ajouter</div>
+                                </div>
+
+ 
+                                </form>
+                                
+                            </div>
+                            <!-- END CHART-->
+                        </div>    
+
+                    </div>
+                </div>
+               
+            </section>
+        </main>
+            <!-- END STATISTIC CHART-->
+
+            <!-- DATA TABLE-->
+            
             <!-- END DATA TABLE-->
 
             <!-- COPYRIGHT-->
-             <footer>
+         
+            <!-- END COPYRIGHT-->
+    
+ <footer>
         <!-- Footer Start-->
         <div class="footer-area footer-bg footer-padding">
             <div class="container">
@@ -469,7 +520,7 @@
     </div>
 
     <!-- Jquery JS-->
-             <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+         <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
         <!-- Jquery, Popper, Bootstrap -->
         <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
         <script src="/assets/js/popper.min.js"></script>

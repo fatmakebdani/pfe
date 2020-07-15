@@ -22,17 +22,20 @@ Route::get('/jobd', function () {
 Route::get('/jobl', function () {
     return view('job_listing');
 });
-Route::get('/dashboardP', function () {
-    return view('Professionnel.dashboardP');
+Route::get('MaFichePP', function () {
+    return view('Professionnel.MaFichePP');
 });
 
 Route::get('mes_offres', function () {
     return view('Professionnel.mes_offres');
 });
+Route::get('mesOffres', function () {
+    return view('Professionnel.mesOffres');
+});
 Route::get('mes_candidatures', function () {
     return view('Candidat.mes_candidatures');
 });
-Route::get('admin', function () {
+Route::get('/admins', function () {
     return view('Admin.admin');
 });
 Route::get('/dashboardC', function () {
@@ -42,7 +45,7 @@ Route::get('/about', function () {
     return view('about');
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contactt');
 });
 Route::get('/signup', function () {
     return view('signup');
@@ -50,6 +53,24 @@ Route::get('/signup', function () {
 Route::get('/signupC', function () {
     return view('signupC');
 });
+Route::get('/admin', function () {
+    return view('admin');
+});
+Route::get('/cc', function () {
+    return view('cc');
+});
+Route::get('/e', function () {
+    return view('elements');
+});
+Route::get('/MaFicheP', function () {
+    return view('Candidat.MaFicheP');
+});
+Route::get('/MaFicheE', function () {
+    return view('Professionnel.MaFicheE');
+});
+
+
+
 
 //Route::get('/ficheP','FichePController@newFicheP');
 //Route::get('/listficheP','FichePController@listficheP')
