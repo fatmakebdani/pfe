@@ -75,10 +75,10 @@
                                 <div class="main-menu">
                                     <nav class="d-none d-lg-block">
                                         <ul id="navigation">
-                                             <li><a href="/">Acceuil</a></li>
-                                            <li><a href="jobl">Les offres</a></li>
-                                            <li><a href="e">Les fiches d'entreprises</a></li>
-                                            <li><a href="apropos">Apropos</a></li>
+                                             <li><a href="/">Accueil</a></li>
+                                            <li><a href="jobl">Offres d'emploi</a></li>
+                                            <li><a href="e">Fiches d'entreprise</a></li>
+                                            <li><a href="apropos">A propos</a></li>
                                             <li><a href="contactt">Contact</a></li>
                                         </ul>
                                     </nav>
@@ -175,7 +175,7 @@
                         <!-- Mobile Menu -->
                    
                     <div class="col-lg-12" style="background-color: #28395a;">
-                           <div class="header__navbar">
+                         <div class="header__navbar">
                         <ul class="list-unstyled ">
                             <li>
                                 <a href="/MaFichePP">
@@ -198,7 +198,7 @@
                                         <a href="login.html">Mes examinations</a>
                                     </li>
                                     <li>
-                                        <a href="mes_offres">Mes propositions</a>
+                                        <a href="register.html">Mes propositions</a>
                                     </li>
                                 </ul>
                             </li>
@@ -211,17 +211,18 @@
     </header>
         <!-- END HEADER MOBILE -->
 <main>
+        <!-- END HEADER MOBILE -->
+
         <!-- PAGE CONTENT-->
             <!-- BREADCRUMB-->
             <!-- END BREADCRUMB-->
 
             <!-- WELCOME-->
             <section class="au-breadcrumb2">
-                  <div class="container">
-                        <div class="row justify-content-left">
-                            <div class=" col-lg-8">
-                                <h2 class="mb-30"style="color:#fb246a">Ma fiche professionnelle</h2>
-                                
+                <div class="container">
+                    <div class="row justify-content-left">
+                        <div class="col-md-8">
+                              <h2 class="mb-30"style="color:#fb246a">Ma fiche d'entreprise</h2>
                             <hr class="line-seprate">
                         </div>
                     </div>
@@ -238,7 +239,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Informations personnelles</h6>
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Renseignements généraux</h6>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -256,20 +257,18 @@
                                     <input type="file"id="idI" accept="image/png, image/jpeg">
                                     
                                    
-                           <img src="assets/images/icon/fatma.jpg" width="100" height="70" />
+                           <img src="assets/images/icon/reda.JPG" width="100" height="70" />
                                 </div>
 </div>
-                                    <label>Nom</label>
-                                    <input type="text" class="form-control" id="id_nom">
+                                    <label>Raison sociale</label>
+                                    <input type="text" class="form-control" id="id_raison"><br>
 
-                                    <label>Prénom</label>
-                                    <input type="text" class="form-control" id="id_prenom"><br>
+                                    
+                                    <label>Adresse</label>
+                                    <input type="text" class="form-control" id="id_adresse"><br>
 
-                                    <input type="radio" name="sexe" id="id_sexe" value="Homme">
-                                    <label>Homme</label>
-
-                                    <input type="radio" name="sexe" id="id_sexe" value="Femme">
-                                    <label>Femme</label><br>
+                                    <label>Code postal</label>
+                                    <input type="text" class="form-control" id="id_postal"><br>
 
                                     <label >Email</label>
                                     <input type="email" class="form-control" id="id_email" ><br>
@@ -277,8 +276,10 @@
                                     <label>N° de téléphone</label>
                                     <input type="tel" id="id_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required ><br>
    
-                                    <label>Date de naissance</label>
-                                     <input  type="date" value="jj/mm/aaaa" id="example-date-input"><br>
+                                    <label>Date de création</label>
+                                    <input type="date" id="id_DateN" ><br>
+
+
 
 
                                     
@@ -291,26 +292,20 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Expériences</h6>
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Nature d'activité</h6>
                        
                             <!-- CHART-->
                             <div class="statistic-chart-1"style="background-color:#F1F0EF ">
                                 <form>
-                                    <label>Titre</label>
+                                    <label>Activité principale:</label>
                                     <input type="text" class="form-control" id="id_TitreE">
 
-                                    <label>Nom entreprise</label>
-                                    <input type="text" class="form-control" id="id_NomE"><br>
 
+                                    <label>Activité(s) secondaire(s)</label>
+                                    <textarea id="id_sec" ></textarea>
                                     
    
-                                    <label>Date de début</label>
-                                    <input type="date" id="id_DateD" ><br>
-
-                                     <label>Date de fin</label>
-                                    <input type="date" id="id_DateF" ><br>
-
-                                     <input type="file"  id="id_fileE"><br>
+                                    
 
                                     <div class="col-md-6" class="vertical-right">
                                     
@@ -323,31 +318,27 @@
                          
                          <div class="col-md-6">
 
-                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Diplômes et formations</h6>
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Représentant juridique</h6>
                         
                             <!-- CHART-->
                             <div class="statistic-chart-1"style="background-color:#F1F0EF ">
                                 <form>
-                                    <label>Titre</label>
-                                    <input type="text" class="form-control" id="id_TitreE">
+                                    <label>Nom</label>
+                                    <input type="text" class="form-control" id="id_nomR">
 
-                                    <label>Nom établissement</label>
-                                    <input type="text" class="form-control" id="id_NomE"><br>
+                                    <label>Prénom</label>
+                                    <input type="text" class="form-control" id="id_prenomR"><br>
 
                                     
    
-                                    <label>Date de début</label>
-                                    <input type="date" id="id_DateD" ><br>
+                                    <label>Carte d’identité nationale (ou pièce d’identité) n°</label>
+                                    <input type="number" id="id_carte" ><br>
 
-                                     <label>Date de fin</label>
-                                    <input type="date" id="id_DateF" ><br>
-                                    <label>
-
-                                   <input type="file"  id="id_file"><br>
+                                    
                                   
                                 <div class="col-md-6" class="vertical-right">
                                     
-                                     <div class="genric-btn primary-border circle" text-align="vertical-right">Ajouter</div>
+                                    <div class="genric-btn primary-border circle" text-align="vertical-right">Ajouter</div>
                                 </div>
                                     
                                     
@@ -358,56 +349,77 @@
                         </div>
                             <!-- END CHART-->
                         </div> 
-                       <div class="row">
-                        <div class="col-md-12">
-                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Compétences</h6>
+                      
+                </div>
+               
+            </section>
+            <!-- END STATISTIC CHART-->
+
+            <!-- DATA TABLE-->
+            
+            <!-- END DATA TABLE-->
+            <section class="p-t-60 p-b-20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Membres de l'entreprise</h6>
                             <!-- CHART-->
                             <div class="statistic-chart-1"style="background-color:#F1F0EF ">
                                 <form>
-                                    <label>Titre</label>
+                                    <label>Nom</label>
                                     <input type="text" class="form-control" id="id_TitreE"><br>
-                                    
 
                              
                                     <div class="col-md-6" class="vertical-right">
                                     
-                                      <div class="genric-btn primary-border circle" text-align="vertical-right">Ajouter</div>
+                                    <div class="genric-btn primary-border circle" text-align="vertical-right">Impliquer</div>
                                 </div>
 
  
                                 </form>
                                 
                             </div>
-                            <!-- END CHART-->
-                        </div>    
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="title-5 m-b-35"style="color: #242b5e;">Description de l'entreprise</h6>
+                            <!-- CHART-->
+                            <div class="statistic-chart-1"style="background-color:#F1F0EF ">
+                                <form>
+                                    <label for="story">Décrire votre entreprise:</label>
 
+                                    <textarea id="story" name="story" rows="5" cols="33">
+                                        
+                               </textarea>
+
+                             
+                                    <div class="col-md-6" class="vertical-right">
+                                    
+                                    <div class="genric-btn primary-border circle" text-align="vertical-right">Ajouter</div>
+                                </div>
+
+ 
+                                </form>
+                                
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
-               
             </section>
         </main>
-            <!-- END STATISTIC CHART-->
-
-            <!-- DATA TABLE-->
-            
-            <!-- END DATA TABLE-->
-
             <!-- COPYRIGHT-->
-         
-            <!-- END COPYRIGHT-->
-    
- <footer>
+           <footer>
         <!-- Footer Start-->
-        <div class="footer-area footer-bg footer-padding">
+              <div class="footer-area footer-bg footer-padding">
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                        <div class="single-footer-caption mb-50">
                          <div class="single-footer-caption mb-30">
                              <div class="footer-tittle">
-                                 <h4>About Us</h4>
+                                 <h4>A propos</h4>
                                  <div class="footer-pera">
-                                     <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                                     <p>est le site internet qui englobe tout le processus de recutement.Lancé en 2020, notre équipe a pour objectif de faciliter la tâche au recruteur et de donner la chance au candidat.</p>
                                 </div>
                              </div>
                          </div>
@@ -420,30 +432,16 @@
                                 <h4>Contact Info</h4>
                                 <ul>
                                     <li>
-                                    <p>Address :Your address goes
-                                        here, your demo address.</p>
+                                    <p>Adresse: Votre adresse va ici.</p>
                                     </li>
-                                    <li><a href="#">Phone : +8880 44338899</a></li>
+                                    <li><a href="#">Téléphone : 07 45 25 41 02</a></li>
                                     <li><a href="#">Email : info@colorlib.com</a></li>
                                 </ul>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Important Link</h4>
-                                <ul>
-                                    <li><a href="#"> View Project</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Testimonial</a></li>
-                                    <li><a href="#">Proparties</a></li>
-                                    <li><a href="#">Support</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
@@ -527,13 +525,8 @@
         </div>
         <!-- Footer End-->
     </footer>
-            <!-- END COPYRIGHT-->
-        </div>
-
-    </div>
-
     <!-- Jquery JS-->
-         <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
         <!-- Jquery, Popper, Bootstrap -->
         <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
         <script src="/assets/js/popper.min.js"></script>
@@ -588,6 +581,7 @@
 
     <!-- Main JS-->
     <script src="/assets/js/main.js"></script>
+
 
 </body>
 

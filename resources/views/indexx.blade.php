@@ -81,11 +81,11 @@
                                 <div class="main-menu">
                                     <nav class="d-none d-lg-block">
                                         <ul id="navigation">
-                                            <li><a href="/">Acceuil</a></li>
-                                            <li><a href="job_listing">Les offres</a></li>
-                                            <li><a href="job_listing">Les fiches d'entreprises</a></li>
-                                            <li><a href="apropos">Apropos</a></li>
-                                            <li><a href="contactt">Contactt</a></li>
+                                            <li><a href="/">Accueil</a></li>
+                                            <li><a href="job_listing">Offres d'emploi</a></li>
+                                            <li><a href="job_listing">Fiches d'entreprise</a></li>
+                                            <li><a href="apropos">A propos</a></li>
+                                            <li><a href="contactt">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>          
@@ -238,12 +238,12 @@
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active">
-                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/pc.jpg" >
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/main.jpg" >
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-9 col-md-10">
                                 <div class="hero__caption">
-                                    <h1 width=>Trouvez votre futur emploi</h1>
+                                    <h1 width=>Votre logiciel de recrutement</h1>
                                 </div>
                             </div>
                         </div>
@@ -294,7 +294,7 @@
                                 <span class="flaticon-tour"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Design & Creative</a></h5>
+                               <h5><a href="job_listing.html">Design et création</a></h5>
                                 <span>(653)</span>
                             </div>
                         </div>
@@ -305,7 +305,7 @@
                                 <span class="flaticon-cms"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Informatique,Systèmes d'informayion,Internet</a></h5>
+                               <h5><a href="job_listing.html">Informatique,Systèmes d'information,Internet</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -316,7 +316,7 @@
                                 <span class="flaticon-report"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Sales & Marketing</a></h5>
+                               <h5><a href="job_listing.html">Ventes et Marketing</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -327,7 +327,7 @@
                                 <span class="flaticon-app"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Mobile Application</a></h5>
+                               <h5><a href="job_listing.html">Application mobile</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -360,7 +360,7 @@
                                 <span class="flaticon-real-estate"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Real Estate</a></h5>
+                               <h5><a href="job_listing.html">Immobilier</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -371,7 +371,7 @@
                                 <span class="flaticon-content"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Content Writer</a></h5>
+                               <h5><a href="job_listing.html">Rédacteur de contenu</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -390,19 +390,9 @@
         </div>
         <!-- Our Services End -->
         <!-- Online CV Area Start -->
-         <div class="online-cv cv-bg section-overly pt-90 pb-120"  data-background="assets/img/gallery/cv_bg.jpg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="cv-caption text-center">
-                            <p class="pera1">FEATURED TOURS Packages</p>
-                            <p class="pera2"> Make a Difference with Your Online Resume!</p>
-                            <a href="#" class="border-btn2 border-btn4">Upload your cv</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+                <!-- Section Tittle -->
+                
         <!-- Online CV Area End-->
         <!-- Featured_job_start -->
         <section class="featured-job-area feature-padding">
@@ -411,8 +401,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-tittle text-center">
-                            <span>Recent Job</span>
-                            <h2>Featured Jobs</h2>
+                            <span>Fiches d'entreprise</span>
+                            <h2>Nos fidèles entreprises</h2>
                         </div>
                     </div>
                 </div>
@@ -510,8 +500,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-tittle white-text text-center">
-                            <span>Apply process</span>
-                            <h2> How it works</h2>
+                            <span>Notre processus</span>
+                            <h2> Comment ça marche</h2>
                         </div>
                     </div>
                 </div>
@@ -523,8 +513,8 @@
                                 <span class="flaticon-search"></span>
                             </div>
                             <div class="process-cap">
-                               <h5>1. Search a job</h5>
-                               <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                               <h5>1. Chercher un emploi</h5>
+                               <p>Grâce à ... vous pouvez chercher un emploi que ça soit par fonction, par secteur ou par région, vous trouverez votre emploi idéal.</p>
                             </div>
                         </div>
                     </div>
@@ -534,8 +524,8 @@
                                 <span class="flaticon-curriculum-vitae"></span>
                             </div>
                             <div class="process-cap">
-                               <h5>2. Apply for job</h5>
-                               <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                               <h5>2. Postuler pour un emploi</h5>
+                               <p>En un seul clique postuler pour l'offre d'emploi qui vous convient et votre CV sera envoyé et traité le plutôt possible.</p>
                             </div>
                         </div>
                     </div>
@@ -545,8 +535,22 @@
                                 <span class="flaticon-tour"></span>
                             </div>
                             <div class="process-cap">
-                               <h5>3. Get your job</h5>
-                               <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                               <h5>3. Evaluer un candidat</h5>
+                               <p>En tant que recruteur vous avez la possibilité d'évaluer vos candidats un à un selon votre fiche d'évalution et même avec un jury de votre entreprise.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        
+                    </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                                <span class="flaticon-tour"></span>
+                            </div>
+                            <div class="process-cap">
+                               <h5>4. Recruter un candidat</h5>
+                               <p>Recruter le candidat idéal pour le poste après l'évaluation de toute la liste des candidats potentiels.</p>
                             </div>
                         </div>
                     </div>
@@ -555,8 +559,18 @@
         </div>
         <!-- How  Apply Process End-->
         <!-- Testimonial Start -->
+         
+
         <div class="testimonial-area testimonial-padding">
             <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle black-text text-center">
+                            <span>Témoignages</span>
+                            <h2> Derniers avis</h2>
+                        </div>
+                    </div>
+        </div>
                 <!-- Testimonial contents -->
                 <div class="row d-flex justify-content-center">
                     <div class="col-xl-8 col-lg-8 col-md-10">
@@ -619,90 +633,72 @@
         </div>
         <!-- Testimonial End -->
          <!-- Support Company Start-->
-         <div class="support-company-area support-padding fix">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="right-caption">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle section-tittle2">
-                                <span>What we are doing</span>
-                                <h2>24k Talented people are getting Jobs</h2>
-                            </div>
-                            <div class="support-caption">
-                                <p class="pera-top">Mollit anim laborum duis au dolor in voluptate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillum.</p>
-                                <p>Mollit anim laborum.Duis aute irufg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur signjnt occa cupidatat non inulpadeserunt mollit aboru. temnthp incididbnt ut labore mollit anim laborum suis aute.</p>
-                                <a href="about.html" class="btn post-btn">Post a job</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="support-location-img">
-                            <img src="assets/img/service/support-img.jpg" alt="">
-                            <div class="support-img-cap text-center">
-                                <p>Since</p>
-                                <span>1994</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Support Company End-->
-        <!-- Blog Area Start -->
-        <div class="home-blog-area blog-h-padding">
+          <div class="apply-process-area apply-bg pt-150 pb-150" data-background="assets/img/gallery/how-applybg.png">
             <div class="container">
                 <!-- Section Tittle -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="section-tittle text-center">
-                            <span>Our latest blog</span>
-                            <h2>Our recent news</h2>
+                        <div class="section-tittle white-text text-center">
+                            
+                            <h2> Questions fréquentes</h2>
                         </div>
                     </div>
                 </div>
+                <!-- Apply Process Caption -->
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/blog/home-blog1.jpg" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
-                                    </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>|   Properties</p>
-                                    <h3><a href="single-blog.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="#" class="more-btn">Read more »</a>
-                                </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                                
+                            </div>
+                            <div class="process-cap">
+                               <h5>1. Comment s'inscrire ?</h5>
+                               <p>Il faut s'inscrire selon votre besoin, soit en tant que candidat pour pouvoir chercher et postuler pour un emploi, ou en tant que professionnel pour pouvoir recruter pour votre entreprise.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/blog/home-blog2.jpg" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
-                                    </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>|   Properties</p>
-                                    <h3><a href="single-blog.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="#" class="more-btn">Read more »</a>
-                                </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                               
+                            </div>
+                            <div class="process-cap">
+                               <h5>2. Comment postuler pour une offre ?</h5>
+                               <p>Un fois connecté en tant que candidat vous devez obligatoirement remplir votre fiche professionnelle et ensuite chercher une offre d'emploi et postuler. Votre CV sera envoyé automatiquement.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                               
+                            </div>
+                            <div class="process-cap">
+                               <h5>3. Le recrutement collaboratif, ça marche comment ?</h5>
+                               <p>En tant que professionnel, une fois avoir créer votre offre d'emploi, vous pouvez impliquer des membres de votre entreprise pour en faire un jury qui va donc évaluer les candidats potentiels et vous envoyer les résultats.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        
+                    </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                                
+                            </div>
+                            <div class="process-cap">
+                               <h5>4. La fiche d'entreprise qu'est ce que c'est ?</h5>
+                               <p>Une fiche d'entreprise concerne le professionnel et nos pas le candidat, elle contient toute information importante sur l'entreprise à la quelle il appartient.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+             </div>
         </div>
+        <!-- Support Company End-->
+        <!-- Blog Area Start -->
+        
         <!-- Blog Area End -->
 
     </main>
@@ -715,9 +711,9 @@
                        <div class="single-footer-caption mb-50">
                          <div class="single-footer-caption mb-30">
                              <div class="footer-tittle">
-                                 <h4>About Us</h4>
+                                 <h4>A propos</h4>
                                  <div class="footer-pera">
-                                     <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                                     <p>est le site internet qui englobe tout le processus de recutement.Lancé en 2020, notre équipe a pour objectif de faciliter la tâche au recruteur et de donner la chance au candidat.</p>
                                 </div>
                              </div>
                          </div>
@@ -730,30 +726,16 @@
                                 <h4>Contact Info</h4>
                                 <ul>
                                     <li>
-                                    <p>Address :Your address goes
-                                        here, your demo address.</p>
+                                    <p>Adresse: Votre adresse va ici.</p>
                                     </li>
-                                    <li><a href="#">Phone : +8880 44338899</a></li>
+                                    <li><a href="#">Téléphone : 07 45 25 41 02</a></li>
                                     <li><a href="#">Email : info@colorlib.com</a></li>
                                 </ul>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Important Link</h4>
-                                <ul>
-                                    <li><a href="#"> View Project</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Testimonial</a></li>
-                                    <li><a href="#">Proparties</a></li>
-                                    <li><a href="#">Support</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">

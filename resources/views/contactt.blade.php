@@ -56,17 +56,10 @@
                                 <div class="main-menu">
                                     <nav class="d-none d-lg-block">
                                         <ul id="navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="job_listing.html">Find a Jobs </a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="#">Page</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-blog.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Elements</a></li>
-                                                    <li><a href="job_details.html">job Details</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="index.html">Accueil</a></li>
+                                            <li><a href="job_listing.html">Offres d'emploi</a></li>
+                                            <li><a href="about.html">Fiches d'entreprise</a></li>
+                                            <li><a href="#">A propos</a></li>
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
@@ -95,7 +88,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>Contact us</h2>
+                            <h2>Contactez nous</h2>
                         </div>
                     </div>
                 </div>
@@ -148,19 +141,19 @@
     
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title">Get in Touch</h2>
+                        <h2 class="contact-title">Entrer en contact</h2>
                     </div>
                     <div class="col-lg-8">
                         <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Entrer votre message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Entrer votre nom">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -170,12 +163,12 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Sujet">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                                <button type="submit" class="button button-contactForm boxed-btn">Envoyer</button>
                             </div>
                         </form>
                     </div>
@@ -183,22 +176,22 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                <h3>Buttonwood, California.</h3>
-                                <p>Rosemead, CA 91770</p>
+                                <h3>Algerie, Tlemcen</h3>
+                                <p>Ain Karaja, 03</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
-                                <p>Mon to Fri 9am to 6pm</p>
+                                <h3>07 45 25 41 02</h3>
+                                <p>Disponible de 9h00 à 20h00</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
                                 <h3>support@colorlib.com</h3>
-                                <p>Send us your query anytime!</p>
+                                <p>Contactez nous à n'importe quel moment!</p>
                             </div>
                         </div>
                     </div>
@@ -215,9 +208,9 @@
                        <div class="single-footer-caption mb-50">
                          <div class="single-footer-caption mb-30">
                              <div class="footer-tittle">
-                                 <h4>About Us</h4>
+                                 <h4>A propos</h4>
                                  <div class="footer-pera">
-                                     <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                                     <p>est le site internet qui englobe tout le processus de recutement.Lancé en 2020, notre équipe a pour objectif de faciliter la tâche au recruteur et de donner la chance au candidat.</p>
                                 </div>
                              </div>
                          </div>
@@ -230,36 +223,22 @@
                                 <h4>Contact Info</h4>
                                 <ul>
                                     <li>
-                                    <p>Address :Your address goes
-                                        here, your demo address.</p>
+                                    <p>Adresse: Votre adresse va ici.</p>
                                     </li>
-                                    <li><a href="#">Phone : +8880 44338899</a></li>
+                                    <li><a href="#">Téléphone : 07 45 25 41 02</a></li>
                                     <li><a href="#">Email : info@colorlib.com</a></li>
                                 </ul>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Important Link</h4>
-                                <ul>
-                                    <li><a href="#"> View Project</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Testimonial</a></li>
-                                    <li><a href="#">Proparties</a></li>
-                                    <li><a href="#">Support</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4>Newsletter</h4>
                                 <div class="footer-pera footer-pera2">
-                                 <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
+                                 <p>.</p>
                              </div>
                              <!-- Form -->
                              <div class="footer-form" >

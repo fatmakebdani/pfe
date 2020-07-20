@@ -125,11 +125,6 @@ img.pull-left { margin-right: 10px; }
     font-family: 'Source Serif Pro', serif
 }	
 #classModal {}
-
-.modal-body {
-  overflow-x: auto;
-  background-color: grey;
-}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:transparent;

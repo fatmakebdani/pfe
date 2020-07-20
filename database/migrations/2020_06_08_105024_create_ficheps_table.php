@@ -17,6 +17,7 @@ class CreateFichePsTable extends Migration
             $table->increments('id');
             $table->String('nom');
             $table->String('prenom');
+            $table->enum('sexe', ['homme','femme']);
             $table->date('date_naissance');
             $table->String('adresse');
             $table->integer('num_tel');

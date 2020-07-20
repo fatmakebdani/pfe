@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -175,22 +175,36 @@
                         <!-- Mobile Menu -->
                    
                     <div class="col-lg-12" style="background-color: #28395a;">
-                         <div class="col-md-12">
-                            <div class="au-breadcrumb-content ">
-                                 <div class="au-breadcrumb-left">
-                                 <nav class="navbar navbar-light navbar-brand ">
-                                         <a href="/MaFicheP"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>
-                                           <span class="bot-line"></span> Fiche prrofessionnelle</a>
-    <a href="mes_candidatures">
-                                    <i class="fa fa-bookmark" aria-hidden="true"></i>
-                                    <span class="bot-line"></span>Mes candidatures</a>
-</nav>
-                                       <!-- Button trigger modal -->
-<!-- Button trigger modal -->
-
-                        </div>
+                           <div class="header__navbar">
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a href="/MaFichePP">
+                                    <i class="fa fa-file-powerpoint-o"></i>
+                                    <span class="bot-line"></span>Ma fiche professionnelle</a>
+                            </li>
+                            <li>
+                                <a href="MaFicheE">
+                                    <i class="fa fa-building"></i>
+                                    <span class="bot-line"></span>Ma fiche d'entreprise</a>
+                            </li>
+                           
+                            
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-copy"></i>
+                                    <span class="bot-line"></span>Mes offres</a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="login.html">Mes examinations</a>
+                                    </li>
+                                    <li>
+                                        <a href="mes_offres">Mes propositions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                         
+                        </ul>
                     </div>
-                </div>
             </div>
        
         <!-- Header End -->

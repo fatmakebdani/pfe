@@ -229,7 +229,7 @@
        
       </div>
       <div class="modal-body">
-         <div class="post-details3  mb-50">
+         
                             <!-- Small Section Tittle -->
                           <ul>
                               <li>Posted date : <span>12 Aug 2019</span></li>
@@ -239,7 +239,7 @@
                               <li>Salary :  <span>$7,800 yearly</span></li>
                               <li>Application date : <span>12 Sep 2020</span></li>
                           </ul>
-                       </div>
+                      
       </div>
       <div class="modal-footer">
           <div class="apply-btn2">

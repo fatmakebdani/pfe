@@ -1,28 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+         <title>Job board HTML-5 Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-<head>
-    <!-- Required meta tags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="au theme template">
-    <meta name="author" content="Hau Nguyen">
-    <meta name="keywords" content="au theme template">
-
-    <!-- Title Page-->
-    <title>Dashboard 3</title>
-
-    <!-- Fontfaces CSS-->
-    <link href="/assets/css/font-face.css" rel="stylesheet" media="all">
+        <!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/price_rangs.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="css/app.css">
+            <link href="/assets/css/font-face.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-
-    <!-- Bootstrap CSS-->
-    <link href="/assets/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <li href="assets/css/table.css"></li>
+     <!-- Bootstrap CSS-->
+   
 
     <!-- Vendor CSS-->
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="/assets/animsition/animsition.min.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/wow/animate.css" rel="stylesheet" media="all">
     <link href="/assets/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
@@ -32,48 +42,51 @@
 
     <!-- Main CSS-->
     <link href="/assets/css/theme.css" rel="stylesheet" media="all">
+   </head>
 
-</head>
-
-<body class="animsition">
-    <div class="page-wrapper">
-        <!-- HEADER DESKTOP-->
-        <header class="header-desktop3 d-none d-lg-block">
-            <div class="section__content section__content--p35">
-                <div class="header3-wrap">
-                    <div class="header__logo">
-                        <a href="#">
-                            <img src="images/icon/logo-white.png" alt="CoolAdmin" />
-                        </a>
-                    </div>
-                    <div class="header__navbar">
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-home" aria-hidden="true"></i>
-                                    <span class="bot-line"></span>Acceuil</a>
-                            </li>
-                            <li>
-                                <a href="table.html">
-                                    <i class="fas fa-trophy"></i>
-                                    <span class="bot-line"></span>Mes offres</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-copy"></i>
-                                    <span class="bot-line"></span>Fiche entreprise</a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <i class="fas fa-copy"></i>
-                                    <span class="bot-line"></span>Fiche professionnelle</a>
-                                </li>
-                                
-                        </ul>
-                    </div>
-                    <div class="header__tool">
+   <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+       <div class="header-area header-transparrent">
+           <div class="headder-top header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 col-md-1" align="left">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="/"><img src="assets/img/logo/logo.png" alt=""></a>
+                            </div>  
+                        </div>
+                        <div class="col-lg-10 col-md-9" align="rights">
+                            <div class="menu-wrapper">
+                                <!-- Main-menu -->
+                                <div class="main-menu">
+                                    <nav class="d-none d-lg-block">
+                                        <ul id="navigation">
+                                             <li><a href="/">Acceuil</a></li>
+                                            <li><a href="jobl">Les offres</a></li>
+                                            <li><a href="e">Les fiches d'entreprises</a></li>
+                                            <li><a href="apropos">Apropos</a></li>
+                                            <li><a href="contactt">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>          
+                                <!-- Header-btn -->
+                                <div class="header__tool">
                         <div class="header-button-item has-noti js-item-menu">
-                            <i class="zmdi zmdi-notifications"></i>
+                            <i class="fa fa-bell"style="color:#1f2b7b" aria-hidden="true"></i>
                             <div class="notifi-dropdown notifi-dropdown--no-bor js-dropdown">
                                 <div class="notifi__title">
                                     <p>You have 3 Notifications</p>
@@ -110,50 +123,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="header-button-item js-item-menu">
-                            <i class="zmdi zmdi-settings"></i>
-                            <div class="setting-dropdown js-dropdown">
-                                <div class="account-dropdown__body">
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-account"></i>Account</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-settings"></i>Setting</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                    </div>
-                                </div>
-                                <div class="account-dropdown__body">
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-globe"></i>Language</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-pin"></i>Location</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-email"></i>Email</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-notifications"></i>Notifications</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="header-button-item has-noti js-item-menu">
+                             <i class="fa fa-envelope"style="color:#1f2b7b" aria-hidden="true"></i>
                         </div>
                         <div class="account-wrap">
                             <div class="account-item account-item--style2 clearfix js-item-menu">
                                 <div class="image">
-                                    <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                    <img src="/assets/images/icon/avatar-01.jpg" alt="John Doe" />
                                 </div>
                                 <div class="content">
-                                    <a class="js-acc-btn" href="#">john doe</a>
+                                    <a class="js-acc-btn" style="color:#1f2b7b " href="#">john doe</a>
                                 </div>
                                 <div class="account-dropdown js-dropdown">
                                     <div class="info clearfix">
@@ -191,704 +170,339 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                   
+                    <div class="col-lg-12" style="background-color: #28395a;">
+                           <div class="header__navbar">
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a href="/MaFichePP">
+                                    <i class="fa fa-file-powerpoint-o"></i>
+                                    <span class="bot-line"></span>Ma fiche professionnelle</a>
+                            </li>
+                            <li>
+                                <a href="MaFicheE">
+                                    <i class="fa fa-building"></i>
+                                    <span class="bot-line"></span>Ma fiche d'entreprise</a>
+                            </li>
+                           
+                            
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-copy"></i>
+                                    <span class="bot-line"></span>Mes offres</a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="login.html">Mes examinations</a>
+                                    </li>
+                                    <li>
+                                        <a href="mes_offres">Mes propositions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                         
+                        </ul>
+                    </div>
             </div>
-        </header>
+       
+        <!-- Header End -->
+    </header>
         <!-- END HEADER DESKTOP-->
 
         <!-- HEADER MOBILE-->
-        <header class="header-mobile header-mobile-2 d-block d-lg-none">
-            <div class="header-mobile__bar">
-                <div class="container-fluid">
-                    <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
-                            <img src="images/icon/logo-white.png" alt="CoolAdmin" />
-                        </a>
-                        <button class="hamburger hamburger--slider" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <nav class="navbar-mobile">
-                <div class="container-fluid">
-                    <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="index.html">Dashboard 1</a>
-                                </li>
-                                <li>
-                                    <a href="index2.html">Dashboard 2</a>
-                                </li>
-                                <li>
-                                    <a href="index3.html">Dashboard 3</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">Dashboard 4</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
-                        </li>
-                        <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
-                        </li>
-                        <li>
-                            <a href="form.html">
-                                <i class="far fa-check-square"></i>Forms</a>
-                        </li>
-                        <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Pages</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="login.html">Login</a>
-                                </li>
-                                <li>
-                                    <a href="register.html">Register</a>
-                                </li>
-                                <li>
-                                    <a href="forget-pass.html">Forget Password</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-desktop"></i>UI Elements</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="button.html">Button</a>
-                                </li>
-                                <li>
-                                    <a href="badge.html">Badges</a>
-                                </li>
-                                <li>
-                                    <a href="tab.html">Tabs</a>
-                                </li>
-                                <li>
-                                    <a href="card.html">Cards</a>
-                                </li>
-                                <li>
-                                    <a href="alert.html">Alerts</a>
-                                </li>
-                                <li>
-                                    <a href="progress-bar.html">Progress Bars</a>
-                                </li>
-                                <li>
-                                    <a href="modal.html">Modals</a>
-                                </li>
-                                <li>
-                                    <a href="switch.html">Switchs</a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">Grids</a>
-                                </li>
-                                <li>
-                                    <a href="fontawesome.html">Fontawesome Icon</a>
-                                </li>
-                                <li>
-                                    <a href="typo.html">Typography</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <div class="sub-header-mobile-2 d-block d-lg-none">
-            <div class="header__tool">
-                <div class="header-button-item has-noti js-item-menu">
-                    <i class="zmdi zmdi-notifications"></i>
-                    <div class="notifi-dropdown notifi-dropdown--no-bor js-dropdown">
-                        <div class="notifi__title">
-                            <p>You have 3 Notifications</p>
-                        </div>
-                        <div class="notifi__item">
-                            <div class="bg-c1 img-cir img-40">
-                                <i class="zmdi zmdi-email-open"></i>
-                            </div>
-                            <div class="content">
-                                <p>You got a email notification</p>
-                                <span class="date">April 12, 2018 06:50</span>
-                            </div>
-                        </div>
-                        <div class="notifi__item">
-                            <div class="bg-c2 img-cir img-40">
-                                <i class="zmdi zmdi-account-box"></i>
-                            </div>
-                            <div class="content">
-                                <p>Your account has been blocked</p>
-                                <span class="date">April 12, 2018 06:50</span>
-                            </div>
-                        </div>
-                        <div class="notifi__item">
-                            <div class="bg-c3 img-cir img-40">
-                                <i class="zmdi zmdi-file-text"></i>
-                            </div>
-                            <div class="content">
-                                <p>You got a new file</p>
-                                <span class="date">April 12, 2018 06:50</span>
-                            </div>
-                        </div>
-                        <div class="notifi__footer">
-                            <a href="#">All notifications</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-button-item js-item-menu">
-                    <i class="zmdi zmdi-settings"></i>
-                    <div class="setting-dropdown js-dropdown">
-                        <div class="account-dropdown__body">
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-account"></i>Account</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-settings"></i>Setting</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-money-box"></i>Billing</a>
-                            </div>
-                        </div>
-                        <div class="account-dropdown__body">
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-globe"></i>Language</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-pin"></i>Location</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-email"></i>Email</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-notifications"></i>Notifications</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="account-wrap">
-                    <div class="account-item account-item--style2 clearfix js-item-menu">
-                        <div class="image">
-                            <img src="images/icon/avatar-01.jpg" alt="John Doe" />
-                        </div>
-                        <div class="content">
-                            <a class="js-acc-btn" href="#">john doe</a>
-                        </div>
-                        <div class="account-dropdown js-dropdown">
-                            <div class="info clearfix">
-                                <div class="image">
-                                    <a href="#">
-                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <h5 class="name">
-                                        <a href="#">john doe</a>
-                                    </h5>
-                                    <span class="email">johndoe@example.com</span>
-                                </div>
-                            </div>
-                            <div class="account-dropdown__body">
-                                <div class="account-dropdown__item">
-                                    <a href="#">
-                                        <i class="zmdi zmdi-account"></i>Account</a>
-                                </div>
-                                <div class="account-dropdown__item">
-                                    <a href="#">
-                                        <i class="zmdi zmdi-settings"></i>Setting</a>
-                                </div>
-                                <div class="account-dropdown__item">
-                                    <a href="#">
-                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                </div>
-                            </div>
-                            <div class="account-dropdown__footer">
-                                <a href="#">
-                                    <i class="zmdi zmdi-power"></i>Logout</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END HEADER MOBILE -->
+     
 
         <!-- PAGE CONTENT-->
-        <div class="page-content--bgf7">
+    
             <!-- BREADCRUMB-->
-            <section class="welcome p-t-10">
-               <div class="container">
-                    <div class="row">
-                         <div class="col-md-12">
-                            <div class="au-breadcrumb-content">
-                                 <div class="au-breadcrumb-left">
-                            </div>
-                                <div class="au-breadcrumb-right">
+           
                                    
                                             <!-- Button trigger modal -->
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-success btn-lg"  data-toggle="modal" data-target="#exampleModalLong"><i class="zmdi zmdi-plus"></i>
-  Nouvelle offre
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Nouvelle offre</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="titre" class="col-form-label">Titre:</label>
-            <input type="text" class="form-control" id="titre">
-          </div>
-          <div class="form-group">
-            <label for="entreprise" class="col-form-label">Entreprise:</label>
-            <input type="text" class="form-control" id="entreprise">
-          </div>
-          
-          <div class="form-group">
-            <label for="description" class="col-form-label">Description:</label>
-            <textarea class="form-control" id="description"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="text" name="name[]" placeholder="Membre" class="form-control name_list">
-            <i  type="button" name="add" id="add" class="btn btn-success">add more</i>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save</button>
-      </div>
-    </div>
-  </div>
-</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
+        <!-- END HEADER MOBILE -->
+<main>
+     
+        <!-- PAGE CONTENT-->
+            <!-- BREADCRUMB-->
+        
             <section class="au-breadcrumb2">
-            <div class="container">
-                        <div class="row">
-                            
-                            <div class="col-lg-12">
-                                <div class="table-responsive table--no-card m-b-30">
-                                    <table class="table table-borderless table-striped table-earning">
-                                        <thead>
-                                            <tr>
-                                                <th>titre</th>
-                                                <th>date</th>
-                                                <th>statut</th>
-                                                <th></th>
-                                                <th></th>
-                                                <th></th>
-                                                
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr><td>100398</td>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>libre</td>
-                                                <td  width="5">
- <i class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal"></i>
+            <div class="container ">
+                      <h2 class="mb-30"style="color:#fb246a">Mes propositions</h2>
+                      <hr class="line-seprate">
+                       <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="count-job mb-35">
+                                            <span>6 offres proposées</span>
+                                            <!-- Select job items start -->
+                                                 <div class="items-link items-link2 f-right">
+                                                     <a href="NOffre.html" class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal"></a>
 <div id="myModal" class="modal" tabindex="-1" role="dialog"  aria-labelledby="myModal">
   <div class="modal-dialog modal-lg" role="document">
 
     <!-- Modal content-->
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"></h4>
-      </div>
-      <div class="modal-body">
-         <table id="classTable" class="table table-bordered">
-          <thead>
-          </thead>
-          <tbody>
-            <tr>
-              <td>CLN</td>
-              <td>Last Updated Date</td>
-              <td>Class Name</td>
-              <td># Tests</td>
-              <td>Test Coverage (Instruction)</td>
-              <td>Test Coverage (Complexity)</td>
-              <td>Complex Covered</td>
-              <td>Complex Total</td>
-              <td>Category</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div></td>
-                                              <td width="5">
-<i class="fa fa-pencil-square-o" aria-hidden="true"data-toggle="modal" data-target="#exampleModalLong"></i></td>
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="titre" class="col-form-label">Titre:</label>
-            <input type="text" class="form-control" id="titre">
-          </div>
-          <div class="form-group">
-            <label for="entreprise" class="col-form-label">Entreprise:</label>
-            <input type="text" class="form-control" id="entreprise">
-          </div>
-          
-          <div class="form-group">
-            <label for="description" class="col-form-label">Description:</label>
-            <textarea class="form-control" id="description"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="text" name="name[]" placeholder="Membre" class="form-control name_list">
-            <i  type="button" name="add" id="add" class="btn btn-success">add more</i>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div><td width="5">
-<i class="fa fa-trash"size="lg" aria-hidden="true"></i>
-                </td>
-                                            </tr>
-                                           <tr>
-                                                <td>100398</td>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>libre</td>
-                                                 <td  width="5">
- <i class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal" align="left"></i></td>
-<div id="myModal" class="modal" role="dialog">
-  <div class="modal-dialog modal-lg">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
-                                             <td width="5">
-<i class="fa fa-pencil-square-o" aria-hidden="true"data-toggle="modal" data-target="#exampleModalLong"></i></td>
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="titre" class="col-form-label">Titre:</label>
-            <input type="text" class="form-control" id="titre">
-          </div>
-          <div class="form-group">
-            <label for="entreprise" class="col-form-label">Entreprise:</label>
-            <input type="text" class="form-control" id="entreprise">
-          </div>
-          
-          <div class="form-group">
-            <label for="description" class="col-form-label">Description:</label>
-            <textarea class="form-control" id="description"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="text" name="name[]" placeholder="Membre" class="form-control name_list">
-            <i  type="button" name="add" id="add" class="btn btn-success">add more</i>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div><td width="5">
-<i class="fa fa-trash"size="lg" aria-hidden="true"></i>
-                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>100398</td>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>libre</td>
-                                                                        <td  width="5">
- <i class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal" align="left"></i></td>
-<div id="myModal" class="modal" role="dialog">
-  <div class="modal-dialog modal-lg">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
-                                             <td width="5">
-<i class="fa fa-pencil-square-o" aria-hidden="true"data-toggle="modal" data-target="#exampleModalLong"></i></td>
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="titre" class="col-form-label">Titre:</label>
-            <input type="text" class="form-control" id="titre">
-          </div>
-          <div class="form-group">
-            <label for="entreprise" class="col-form-label">Entreprise:</label>
-            <input type="text" class="form-control" id="entreprise">
-          </div>
-          
-          <div class="form-group">
-            <label for="description" class="col-form-label">Description:</label>
-            <textarea class="form-control" id="description"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="text" name="name[]" placeholder="Membre" class="form-control name_list">
-            <i  type="button" name="add" id="add" class="btn btn-success">add more</i>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div><td width="5">
-<i class="fa fa-trash"size="lg" aria-hidden="true"></i>
-                </td>
-                                            </tr>
-
-            
+     
+  <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">X</button>
     
-                                            <tr>
-                                                <td>100398</td>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>libre</td>
-                                                                        <td  width="5">
- <i class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal" align="left"></i></td>
-<div id="myModal" class="modal" role="dialog">
-  <div class="modal-dialog modal-lg">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
     </div>
+    <div class="modal-body">
+     <section class="site-section">
+      <div class="container">
 
-  </div>
-</div>
-</div>
-                                             <td width="5">
-<i class="fa fa-pencil-square-o" aria-hidden="true"data-toggle="modal" data-target="#exampleModalLong"></i></td>
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="titre" class="col-form-label">Titre:</label>
-            <input type="text" class="form-control" id="titre">
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-8 mb-4 mb-lg-0">
+            <div class="d-flex align-items-center">
+              <div>
+                <h2 style="color:#fb246a">Nouvelle offre</h2>
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="entreprise" class="col-form-label">Entreprise:</label>
-            <input type="text" class="form-control" id="entreprise">
-          </div>
-          
-          <div class="form-group">
-            <label for="description" class="col-form-label">Description:</label>
-            <textarea class="form-control" id="description"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="text" name="name[]" placeholder="Membre" class="form-control name_list">
-            <i  type="button" name="add" id="add" class="btn btn-success">add more</i>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div><td width="5">
-<i class="fa fa-trash"size="lg" aria-hidden="true"></i>
-                </td>
-   
-                                            </tr>
-                                           <tr>
-                                              <td>100398</td>
-                                                <td>2018-09-29 05:57</td>
-                                                <td>libre</td>
-                                                                      <td  width="5">
- <i class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#myModal" align="left"></i></td>
-<div id="myModal" class="modal" role="dialog">
-  <div class="modal-dialog modal-lg">
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-12">
+            <form class="p-4 p-md-5 border rounded" method="post">
+              
+              <div class="form-group">
+                <label for="Titre" style="color: #242b5e;">Titre</label>
+                <input type="text" class="form-control" id="Titre">
+              </div>
+              <div class="form-group">
+                <label for="Ville">Location</label>
+                <input type="text" class="form-control" id="Ville">
+              </div>
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
+              <div class="form-group">
+        
+              </div>
 
-  </div>
+              <div class="form-group">
+                <label for="Type_contrat">Job Type</label>
+                <select class="selectpicker border rounded" id="Type_contrat" data-style="btn-black" data-width="100%" data-live-search="true">
+                  <option>Part </option>
+                  <option>Full</option>
+                </select>
+              </div>
+
+
+              <div class="form-group">
+                <label for="text-aria">Description de l'offre</label>
+                <textarea id="textarea" class="form-control" rows="4" placeholder="decrivez votre offre!"></textarea>
+                </div>
+
+          <div class="form-group">
+                <label for="Salaire">Location</label>
+                <input type="text" class="form-control" id="Salaire">
+              </div>
+              <div class="form-group">
+                   <input type="radio" name="sexe" id="id_sexe" value="Homme">
+                                    <label>Homme</label>
+
+                                    <input type="radio" name="sexe" id="id_sexe" value="Femme">
+                                    <label>Femme</label>
+                                     <input type="radio" name="sexe" id="id_sexe" value="Quelconque">
+                                    <label>Quelconque</label>
+
+
+              </div>
+              <div class="form-group">
+                   <label>Dernier délais</label>
+                                    <input type="date" id="id_DateN" ><br>
+
+              </div>
+                <div class="form-group">
+                   <label>Date de notification</label>
+                                    <input type="date" id="id_DateN" ><br>
+
+              </div>
+               <div class="form-group">
+                   <label>Date de prise de fonction</label>
+                                    <input type="date" id="id_DateN" ><br>
+
+              </div>
+</form>
+
+         
+        </div>
+    
+      </div>
+    </section>
+
 </div>
-</div>
-                                             <td width="5">
-<i class="fa fa-pencil-square-o" aria-hidden="true"data-toggle="modal" data-target="#exampleModalLong"></i></td>
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+ <div class="modal-footer">
+      <div class="items-link items-link2 f-right">
+                                        <a href="#">Poster</a>
+                                    </div>
+                                      <div class="items-link items-link2 f-right" data-dismiss="modal">
+                                        <a href="#">Annuler</a>
+                                    </div>
       </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="titre" class="col-form-label">Titre:</label>
-            <input type="text" class="form-control" id="titre">
-          </div>
-          <div class="form-group">
-            <label for="entreprise" class="col-form-label">Entreprise:</label>
-            <input type="text" class="form-control" id="entreprise">
-          </div>
-          
-          <div class="form-group">
-            <label for="description" class="col-form-label">Description:</label>
-            <textarea class="form-control" id="description"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="text" name="name[]" placeholder="Membre" class="form-control name_list">
-            <i  type="button" name="add" id="add" class="btn btn-success">add more</i>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div><td width="5">
-<i class="fa fa-trash"size="lg" aria-hidden="true"></i>
-                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                        
+                                            <!--  Select job items End-->
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            
-                        </div>
-                    </div>
-                        
-                       
-                       
-                        </div>
-                </div>
-            </section>
-            <!-- END BREADCRUMB-->
+          
+         
+                        <div class="row justify-content-center">
+                             <section class="featured-job-area">
+                            <div class="container">
+                                <!-- Count of Job list Start -->
+                                
+                                <!-- Count of Job list End -->
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+        
+                                        <div class="job-tittle job-tittle2">
+                                            <a href="#">
+                                                <h4>Digital Marketer</h4>
+                                            </a>
+                                            <ul>
+                                                <li>Creative Agency</li>
+                                                <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                                <li>$3500 - $4000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="items-link items-link2 f-right">
+                                        <a href="job_details.html">Full Time</a>
+                                        <span>7 hours ago</span>
+                                    </div>
+                                </div>
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+                                        
+                                        <div class="job-tittle job-tittle2">
+                                            <a href="#">
+                                                <h4>Digital Marketer</h4>
+                                            </a>
+                                            <ul>
+                                                <li>Creative Agency</li>
+                                                <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                                <li>$3500 - $4000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="items-link items-link2 f-right">
+                                        <a href="job_details.html">Full Time</a>
+                                        <span>7 hours ago</span>
+                                    </div>
+                                </div>
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+                                      
+                                        <div class="job-tittle job-tittle2">
+                                            <a href="#">
+                                                <h4>Digital Marketer</h4>
+                                            </a>
+                                            <ul>
+                                                <li>Creative Agency</li>
+                                                <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                                <li>$3500 - $4000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="items-link items-link2 f-right">
+                                        <a href="job_details.html">Full Time</a>
+                                        <span>7 hours ago</span>
+                                    </div>
+                                </div>
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+                                        <div class="job-tittle job-tittle2">
+                                            <a href="#">
+                                                <h4>Digital Marketer</h4>
+                                            </a>
+                                            <ul>
+                                                <li>Creative Agency</li>
+                                                <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                                <li>$3500 - $4000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="items-link items-link2 f-right">
+                                        <a href="job_details.html">Full Time</a>
+                                        <span>7 hours ago</span>
+                                    </div>
+                                </div>
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+                                        <div class="job-tittle job-tittle2">
+                                            <a href="#">
+                                                <h4>Digital Marketer</h4>
+                                            </a>
+                                            <ul>
+                                                <li>Creative Agency</li>
+                                                <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                                <li>$3500 - $4000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="items-link items-link2 f-right">
+                                        <a href="job_details.html">Full Time</a>
+                                        <span>7 hours ago</span>
+                                    </div>
+                                </div>
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+                                        
+                                        <div class="job-tittle job-tittle2">
+                                            <a href="#">
+                                                <h4>Digital Marketer</h4>
+                                            </a>
+                                            <ul>
+                                                <li>Creative Agency</li>
+                                                <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                                <li>$3500 - $4000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="items-link items-link2 f-right">
+                                        <a href="job_details.html">Full Time</a>
+                                        <span>7 hours ago</span>
+                                    </div>
+                                </div>
+                                <!-- single-job-content -->
+                                <div class="single-job-items mb-30">
+                                    <div class="job-items">
+                                     
+                                        <div class="job-tittle job-tittle2">
+                                            <a href="#">
+                                                <h4>Digital Marketer</h4>
+                                            </a>
+                                            <ul>
+                                                <li>Creative Agency</li>
+                                                <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                                <li>$3500 - $4000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="items-link items-link2 f-right">
+                                        <a href="job_details.html">Full Time</a>
+                                        <span>7 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                                    
+                                </div>
+                            </div>
+                           
 
+            <!-- BREADCRUMB-->
+            
+        </main>
+            
             <!-- WELCOME-->
            
             <!-- END WELCOME-->
@@ -898,24 +512,178 @@
             <!-- END DATA TABLE-->
 
             <!-- COPYRIGHT-->
-            <section class="p-t-60 p-b-20">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="copyright">
-                                <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+             <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-bg footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                       <div class="single-footer-caption mb-50">
+                         <div class="single-footer-caption mb-30">
+                             <div class="footer-tittle">
+                                 <h4>About Us</h4>
+                                 <div class="footer-pera">
+                                     <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                                </div>
+                             </div>
+                         </div>
+
+                       </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Contact Info</h4>
+                                <ul>
+                                    <li>
+                                    <p>Address :Your address goes
+                                        here, your demo address.</p>
+                                    </li>
+                                    <li><a href="#">Phone : +8880 44338899</a></li>
+                                    <li><a href="#">Email : info@colorlib.com</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Important Link</h4>
+                                <ul>
+                                    <li><a href="#"> View Project</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Testimonial</a></li>
+                                    <li><a href="#">Proparties</a></li>
+                                    <li><a href="#">Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Newsletter</h4>
+                                <div class="footer-pera footer-pera2">
+                                 <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
+                             </div>
+                             <!-- Form -->
+                             <div class="footer-form" >
+                                 <div id="mc_embed_signup">
+                                     <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                     method="get" class="subscribe_form relative mail_part">
+                                         <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                         class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                         onblur="this.placeholder = ' Email Address '">
+                                         <div class="form-icon">
+                                             <button type="submit" name="submit" id="newsletter-submit"
+                                             class="email_icon newsletter-submit button-contactForm"><img src="assets/img/icon/form.png" alt=""></button>
+                                         </div>
+                                         <div class="mt-10 info"></div>
+                                     </form>
+                                 </div>
+                             </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+               <!--  -->
+               <div class="row footer-wejed justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <!-- logo -->
+                        <div class="footer-logo mb-20">
+                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                    <div class="footer-tittle-bottom">
+                        <span>5000+</span>
+                        <p>Talented Hunter</p>
+                    </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="footer-tittle-bottom">
+                            <span>451</span>
+                            <p>Talented Hunter</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <!-- Footer Bottom Tittle -->
+                        <div class="footer-tittle-bottom">
+                            <span>568</span>
+                            <p>Talented Hunter</p>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!-- footer-bottom area -->
+        <div class="footer-bottom-area footer-bg">
+            <div class="container">
+                <div class="footer-border">
+                     <div class="row d-flex justify-content-between align-items-center">
+                         <div class="col-xl-10 col-lg-10 ">
+                             <div class="footer-copy-right">
+                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                             </div>
+                         </div>
+                         <div class="col-xl-2 col-lg-2">
+                             <div class="footer-social f-right">
+                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                 <a href="#"><i class="fas fa-globe"></i></a>
+                                 <a href="#"><i class="fab fa-behance"></i></a>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
             <!-- END COPYRIGHT-->
         </div>
 
     </div>
 
+
     <!-- Jquery JS-->
-    <script src="/assets/vendor/jquery-3.2.1.min.js"></script>
+             <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <!-- Jquery, Popper, Bootstrap -->
+        <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="/assets/js/popper.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <!-- Jquery Mobile Menu -->
+        <script src="/assets/js/jquery.slicknav.min.js"></script>
+
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="/assets/js/owl.carousel.min.js"></script>
+        <script src="/assets/js/slick.min.js"></script>
+        <script src="/assets/js/price_rangs.js"></script>
+        
+        <!-- One Page, Animated-HeadLin -->
+        <script src="/assets/js/wow.min.js"></script>
+        <script src="/assets/js/animated.headline.js"></script>
+        <script src="/assets/js/jquery.magnific-popup.js"></script>
+
+        <!-- Scrollup, nice-select, sticky -->
+        <script src="/assets/js/jquery.scrollUp.min.js"></script>
+        <script src="/assets/js/jquery.nice-select.min.js"></script>
+        <script src="/assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="/assets/js/contact.js"></script>
+        <script src="/assets/js/jquery.form.js"></script>
+        <script src="/assets/js/jquery.validate.min.js"></script>
+        <script src="/assets/js/mail-script.js"></script>
+        <script src="/assets/js/jquery.ajaxchimp.min.js"></script>
+        
+        <!-- Jquery Plugins, main Jquery -->    
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+          <script src="/assets/vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
     <script src="/assets/vendor/bootstrap-4.1/popper.min.js"></script>
     <script src="/assets/vendor/bootstrap-4.1/bootstrap.min.js"></script>
