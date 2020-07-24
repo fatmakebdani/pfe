@@ -21,6 +21,8 @@ class CreateFichePsTable extends Migration
             $table->date('date_naissance');
             $table->String('adresse');
             $table->integer('num_tel');
+            $table->string('email')->unique();
+            $table->string('photo');
             $table->String('diplomes');
             $table->String('competences');
             $table->String('experiences');

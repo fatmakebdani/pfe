@@ -250,6 +250,12 @@ signInButton.addEventListener('click', () => {
 $('#theModal').click(function () {
   $("#theModal").modal("show");
 });
+$('#myModal').click(function () {
+  $("#myModal").modal("show");
+});
+$('#myModal2').click(function () {
+  $("#myModal2").modal("show");
+});
 
 
 })(jQuery);

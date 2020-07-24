@@ -69,6 +69,9 @@ Route::get('/MaFicheE', function () {
     return view('Professionnel.MaFicheE');
 });
 
+Route::get('/monOffre', function () {
+    return view('Professionnel.monOffre');
+});
 
 
 
